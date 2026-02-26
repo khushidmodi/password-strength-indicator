@@ -13,6 +13,8 @@ const patternStatusEl = document.getElementById("patternStatus");
 const compositionScoreEl = document.getElementById("compositionScore");
 const compositionStatusEl = document.getElementById("compositionStatus");
 
+// very strong password example: j7&kQ!9mXp#!e
+
 const categories = [
   { label: "Very Weak", min: 0, max: 20, hint: "Add length and variety to make it stronger." },
   { label: "Weak", min: 21, max: 40, hint: "Try adding numbers or symbols." },
